@@ -1,7 +1,7 @@
 (function ($)
   { "use strict"
   
-/* 1. Preloder (готовый код, можно использовать в любом проекте) */
+/* 1. Preloder  */
     $(window).on('load', function () {
       $('#preloader-active').delay(450).fadeOut('slow');
       $('body').delay(450).css({
